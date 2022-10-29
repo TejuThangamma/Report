@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Hello_Employee::manager" title="Report" module="Hello_Employee" sortOrder="10" resource="Hello_Employee::manager"/>
+        <add id="Hello_Employee::add_row" title="Report details" module="Hello_Employee" sortOrder="20" parent="Hello_Employee::manager" action="grid/grid" resource="Hello_Employee::add_row"/>
+    </menu>
+</config>
